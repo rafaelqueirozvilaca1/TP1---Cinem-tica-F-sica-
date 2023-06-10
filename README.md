@@ -1,1 +1,1 @@
-# TP1---Cinem-tica-F-sica-
+# TP1 Cinematica (Fisica)
