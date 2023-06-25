@@ -9,7 +9,7 @@ body {
 header {
     background-color: #38b6ff;
     position: sticky;
-    top: 0px;
+    top: 2px;
 }
 
 header h1 {
@@ -116,7 +116,7 @@ iframe {
     margin: auto;
 }
 
-footer {
+body footer {
     background-color: #120D0A;
     color: white;
     margin-top: 30px;
@@ -128,4 +128,53 @@ footer {
 
 footer h3, footer p {
     text-align: center;
+}
+
+.invisivel {
+    display: none;
+}
+
+#botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+#botoes button {
+    width: 200px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#opcoes-mruv button {
+    width: 200px;
+    margin: 90px;
+}
+
+.marcar-pagina-atual {
+    background-color: rgba(195, 199, 206, 0.564);
+    padding-bottom: 7px;
+    padding-top: 6px;
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+}
+
+#opcoes {
+    display: flex;
+    width: 120px;
+    height: 30px;
+    float: left;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#inputs input, #inputs label {
+    padding: 10px;
+    margin: 5px;
+}
+
+#inputs {
+    float: right;
+    margin-right: 50px;
 }
