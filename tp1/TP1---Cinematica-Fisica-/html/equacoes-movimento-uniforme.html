@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cinemática Explorada - Introdução</title>
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="../modal.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cinemática: o guia do movimento</h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="../html/index.html">Home</a></li>
+                <li><a href="../html/mru.html">MRU</a></li>
+                <li><a href="../html/mruv.html">MRUV</a></li>
+                <li><a href="../html/lancamentos.html">Lançamentos</a></li>
+                <li><a href="../html/queda-livre.html">Queda Livre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="equacao-mu">
+            <select id="opcoes">
+                <option value="velocidade">Velocidade</option>
+                <option value="posicao-final">Posição final</option>
+                <option value="posicao-inicial">Posição inicial</option>
+                <option value="tempo">Tempo</option>
+            </select>
+            <section id="inputs">
+                <label for="velocidade">Velocidade em m/s: </label>
+                <input type="number" class="input" disabled>
+                <label for="posicao-final">Posição Final em metros: </label>
+                <input type="number" class="input">
+                <br><br>
+                <label for="posicao-inicial">Posição inicial em metros: </label>
+                <input type="number" class="input">
+                <label for="tempo">Tempo em segundos: </label>
+                <input type="number" class="input">
+                <button id="resolver-equacao">Resolver!</button>
+            </section>
+        </section>
+        <br><br>
+        <section id="resolucao"></section>
+    </main>
+    <script src="../js/movimento-uniforme.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
