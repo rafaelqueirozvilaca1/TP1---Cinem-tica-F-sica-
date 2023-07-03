@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cinemática Explorada - Introdução</title>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" href="imgs/icone-da-pagina.jpg">
+</head>
+
+<body>
+    <header id="topo">
+        <h1>Cinemática: o guia do movimento</h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mru.html">MRU</a></li>
+                <li><a href="mruv.html">MRUV</a></li>
+                <li><a href="lancamentos.html">Lançamento Horizontal</a></li>
+                <li><a href="queda-livre.html">Queda Livre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="conteudo-principal-equacoes">
+        <a class="voltar-pagina-inicial" href="mru.html">← Voltar</a>
+        <p id="paragrafo-instrucoes">Para resolver, siga as instruções:</p>
+        <ul id="instrucoes">
+            <li>Posição final e posição inicial em metros (m).</li>
+            <li>Velocidade em metros por segundo (m/s).</li>
+            <li>Tempo em segundos (s) e maior que zero.</li>
+            <li>Se, por exemplo, você selecionar a opção "Velocidade", o campo de entrada "Velocidade em m/s" ficará
+                desativado. </li>
+            <li>Digite os valores de cada um dos campos de entrada ativos.</li>
+            <li>Logo após digitar os valores, clique no botão <span class="termo">"Resolver!"</span> ou clique no botão
+                <span class="termo">Enter</span>.
+            </li>
+        </ul>
+        <section id="equacao-mu">
+            <select id="opcoes">
+                <option value="velocidade">Velocidade</option>
+                <option value="posicao-final">Posição final</option>
+                <option value="posicao-inicial">Posição inicial</option>
+                <option value="tempo">Tempo</option>
+            </select>
+            <section id="inputs">
+                <label for="velocidade">Velocidade em m/s: </label>
+                <input type="number" class="input" disabled>
+                <label for="posicao-final">Posição Final em metros: </label>
+                <input type="number" class="input">
+                <label for="posicao-inicial">Posição inicial em metros: </label>
+                <input type="number" class="input">
+                <label for="tempo">Tempo em segundos: </label>
+                <input type="number" class="input">
+                <button id="resolver-equacao">Resolver!</button>
+            </section>
+        </section>
+        <section id="resolucao">
+        </section>
+    </main>
+    <nav id="link-topo">
+        <h1><a href="#topo">↑</a></h1>
+    </nav>
+    <footer>
+        <h2>Autores</h2>
+        <h3>Rafael Queiroz</h3>
+        <p>Meu nome é Rafael Queiroz Vilaça, tenho 17 anos e sou estudante de Informática no Cefet-MG. Espero que esse
+            site tenha sido muito útil assim como foi para nós fazê-lo.</p>
+        <h3>Wesley</h3>
+        <p>Meu nome é Wesley Samuel Rodrigues Batista, tenho 15 anos e sou calouro no Cefet-MG.</p>
+        <h3>Pedro Damasio</h3>
+        <p>Meu nome é Pedro Damasio Moreira Dias, tenho 16 anos e sou calouro no Cefet-MG.</p>
+    </footer>
+    <script src="movimento-uniforme.js"></script>
+    <script src="marca-link-menu.js"></script>
+</body>
+
+</html>
