@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Queda Livre</title>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" href="imgs/icone-da-pagina.jpg">
+</head>
+
+<body>
+    <header id="topo">
+        <h1>Cinemática: o guia do movimento</h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mru.html">MRU</a></li>
+                <li><a href="mruv.html">MRUV</a></li>
+                <li><a href="lancamentos.html">Lançamento Horizontal</a></li>
+                <li><a href="queda-livre.html">Queda Livre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>O que é queda livre na física?</h2>
+        <img id="img-macieira" src="imgs/macieira.jpg" alt="Imagem de uma macieira">
+        <div id="introducao-queda-livres">
+            <p>É qualquer corpo abandonado a partir do repouso ou lançado verticalmente para baixo com V0 (velocidade inicial) diferente de 0 m/s, descrevendo um movimento uniforme acelerado.</p>
+            <p>Na queda livre, a gravidade pode ser positiva ou negativa. Por convenção, a gravidade é positiva quando é registrado o aumento da velocidade do objeto em queda e negativa quando há a desaceleração ou diminuição da velocidade do objeto em queda.</p>
+            <p>Na figura, temos como exemplo a imagem de uma macieira, onde uma maçã cai ao solo no tempo de 3 segundos. Observe que a velocidade da maçã vai aumentando à medida que a maçã vai caindo, e está sob o efeito da aceleração da gravidade, aproximadamente 9.8 m/s². Podemos adotar, nesse caso, a gravidade com valor positivo.</p>
+            <p>As equações que vamos utilizar são as mesmas do MRUV, então se não tiver lido o conteúdo de <a href="mruv.html">MRUV</a>, recomendo que acesse o link e leia.</p>
+            <p>À seguir, veja as equações utilizadas na queda livre: </p>
+        </div>
+        <ul id="significados-incognitas-queda-livre" class="invisivel">
+            <li>S = Posição Final em metros</li>
+            <li>S0 = Posição inicial em metros</li>
+            <li>V0 = velocidade inicial em metros</li>
+            <li>t = tempo em segundos</li>
+            <li>Δs = altura da queda em metros</li>
+            <li id="gravidade-queda-livre">g = gravidade (aproximadamente 9.8 m/s²) </li>
+            <li>V = velocidade final em m/s</li>
+        </ul>
+        <div id="equacoes-queda-livre">
+            <p> Função horária da posição: <span class="formula">S = So + V0 * t ± (gt²) / 2</span></p>
+            <p> Torricelli: <span class="formula">V² = V0² ± 2g * Δs </span></p>
+            <p> Função da velocidade: <span class="formula">V = V0 ± gt</span> </p>
+        </div>
+        <br><br><br>
+        <h2>Perdido? Se liga no vídeo abaixo: </h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8r1KVS0HaJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </main>
+    <nav id="link-topo">
+        <h1><a href="#topo">↑</a></h1>
+    </nav>
+    <footer>
+        <h2>Autores</h2>
+        <h3>Rafael Queiroz</h3>
+        <p>Meu nome é Rafael Queiroz Vilaça, tenho 17 anos e sou estudante de Informática no Cefet-MG. Espero que esse
+            site tenha sido muito útil assim como foi para nós fazê-lo.</p>
+        <h3>Wesley</h3>
+        <p>Meu nome é Wesley Samuel Rodrigues Batista, tenho 15 anos e sou calouro no Cefet-MG.</p>
+        <h3>Pedro Damasio</h3>
+        <p>Meu nome é Pedro Damasio Moreira Dias, tenho 16 anos e sou calouro no Cefet-MG.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

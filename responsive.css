@@ -1,0 +1,271 @@
+@media (min-width: 558px) and (max-width: 629px) {
+    #significados-incognitas-mru {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 601px) {
+    #menu {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 558px) {
+    iframe {
+        width: 90%;
+    }
+
+    header #menu li {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    header h1 {
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+    }
+
+    footer {
+        padding-right: 5%;
+    }
+
+    #formulas #significados-mru,
+    #significados-incognitas-mruv {
+        margin-top: 8px;
+    }
+
+    #significados-incognitas-queda-livre {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 500px) {
+    iframe {
+        width: 90%;
+    }
+
+    #significados-incognitas-queda-livre li {
+        margin-bottom: 10%;
+    }
+
+    header h1 {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    footer {
+        padding: 2%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 450px) {
+    iframe {
+        width: 90%;
+    }
+
+    footer {
+        padding: 3%;
+    }
+
+    header h1 {
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+
+    #significados-incognitas-queda-livre li {
+        margin-bottom: 16%;
+    }
+
+    #significados-incognitas-queda-livre {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+}
+
+@media (min-width: 400px) and (max-width: 412px) {
+
+    #img-carro-mru,
+    #img-lancamento,
+    #img-bicicleta {
+        display: block;
+        margin: auto;
+    }
+
+    #img-lancamento {
+        margin: 10px;
+    }
+
+    #significados-incognitas-queda-livre #gravidade-queda-livre {
+        margin-bottom: 20%;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 400px) {
+    iframe {
+        width: 90%;
+    }
+
+    footer {
+        padding-right: 2%;
+    }
+
+    #img-caminhao-mruv {
+        display: block;
+        margin: auto;
+    }
+
+    #img-lancamento,
+    #img-macieira {
+        width: 90%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+
+    #img-bicicleta {
+        width: 85%;
+        margin: 2%;
+    }
+
+    #imagem-trem {
+        margin: 2%;
+    }
+
+    header h1 {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #img-carro-mru {
+        width: 88%;
+    }
+
+    #significados-incognitas-queda-livre li {
+        margin-bottom: 25%;
+    }
+
+    #significados-incognitas-queda-livre {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 350px) {
+    iframe {
+        width: 87%;
+    }
+
+    #img-caminhao-mruv {
+        width: 85%;
+    }
+
+    footer {
+        padding-right: 2%;
+    }
+
+    #img-carro-mru {
+        width: 85.5%;
+    }
+
+    #conceitos #significados-incognitas-lancamento {
+        margin-left: 5%;
+    }
+
+    #significados-incognitas-queda-livre li {
+        margin-bottom: 25%;
+    }
+
+    #significados-incognitas-queda-livre {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 300px) {
+    iframe {
+        width: 85%;
+    }
+
+    footer {
+        padding-right: 1.5%;
+    }
+
+    #img-caminhao-mruv {
+        width: 83%;
+        height: 83%;
+    }
+
+    #significados-incognitas-lancamento {
+        margin-left: 3.5%;
+    }
+
+    #img-lancamento,
+    #img-carro-mru {
+        width: 83%;
+        height: 83%;
+    }
+
+    #img-bicicleta {
+        width: 82.5%;
+        height: 82.5%;
+    }
+
+    #imagem-trem {
+        width: 82%;
+        height: 82%;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    #significados-incognitas-queda-livre li {
+        margin-bottom: 25%;
+    }
+
+    main #significados-incognitas-queda-livre {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 15%;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 250px) {
+    iframe {
+        width: 83%;
+    }
+
+    #img-bicicleta,
+    #imagem-trem {
+        width: 80%;
+        height: 80%;
+    }
+
+    #img-carro-mru {
+        width: 79.5%;
+        height: 79.5%;
+    }
+
+    #menu li {
+        font-size: 90%;
+    }
+
+    #img-lancamento {
+        width: 90%;
+        height: 80%;
+    }
+
+    header h1 {
+        font-size: 29px;
+    }
+
+    #significados-incognitas-queda-livre.invisivel {
+        display: none;
+    }
+
+    #img-macieira {
+        width: 80%;
+    }
+}
